@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        Ints intsCalc = new IntsCalculator();
+        System.out.println(intsCalc.sum(5, 3));
+        System.out.println(intsCalc.sub(30, 22));
+        System.out.println(intsCalc.mult(10, 22));
+        System.out.println(intsCalc.pow(2, 10));
+        System.out.println(intsCalc.div(20, 2));
+    }
+}
